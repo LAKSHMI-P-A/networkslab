@@ -1,0 +1,41 @@
+   70  ifconfig
+   71  sudo iftop -i docker0
+   72  sudo apt install iftop
+   73  sudo iftop -i docker0
+   74  ping 8.8.8.8
+   75  man ping
+   76  ping -c 10 8.8.8.8
+   77  ifconfig
+   78  ping -c 4 8.8.8.8
+   79  ip a
+   80  ping -c 4 10.10.1.73
+   81  ping -c 4 10.10.1.63
+   82  traceroute www.google.com
+   83  mtr www.google.com
+   84  man netstat
+   85  netstat -s -t
+   86  man netstat
+   87  netstat -t
+   88  whois www.google.com
+   89  whois google.com
+   90  nslookup google.com
+   91  sudo nmap -a 10.10.1.63
+   92  sudo nmap -A 10.10.1.63
+   93  man nmap
+   94  tcpdump
+   95  sudo tcpdump
+   96  mkdir net
+   97  cd net
+   98  python3 -m network venv
+   99*
+  100  python3 -m venv network
+  101  apt install python3.10-venv
+  102  sudo apt install python3.10-venv
+  103  python3 -m venv network
+  104  source network/bin/activate
+  105  speedtest-cli
+  106  sudo snap install speedtest-cli
+  107  speedtest-cli
+
+  102  sudo apt install python3.10-venv
+  103  python3 -m venv network
