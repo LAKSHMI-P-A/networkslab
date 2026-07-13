@@ -37,5 +37,4 @@
   106  sudo snap install speedtest-cli
   107  speedtest-cli
 
-  102  sudo apt install python3.10-venv
-  103  python3 -m venv network
+
